@@ -10,11 +10,10 @@ function App() {
       <Navbar />  
       <Routes>
         <Route path="/productitem" element={<ProductItem />} />
-        {/* Add more routes as needed */}
+        
       </Routes>
-      {/* Divider for spacing between content and footer */}
-      <div className="footer-divider"></div>
-      <Footer />  {/* Add the Footer here */}
+      
+      <Footer />  
     </>
   );
 }

@@ -3,15 +3,15 @@ import './FooterMobile.css';
 
 const FooterMobile = () => {
     return (
-        <div className="footer-frame">
+        <div className="mobile-footer-frame">
             <div className="mobile-footer-red-block"></div>
-            <div className="footer-links">
-                <div className="footer-link">Desktop Site</div>
-                <div className="footer-link">Help & Contact Us</div>
-                <div className="footer-link">Terms & Conditions</div>
+            <div className="mobile-footer-links">
+                <div className="mobile-footer-link">Desktop Site</div>
+                <div className="mobile-footer-link">Help & Contact Us</div>
+                <div className="mobile-footer-link">Terms & Conditions</div>
             </div>
-            <div className="footer-bottom">
-                <div className="footer-trademark">2024 Trade Me Limited</div>
+            <div className="footer-info">
+                <div className="mobile-footer-trademark">2024 Trade Me Limited</div>
                 <div className="social-icons">
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" 

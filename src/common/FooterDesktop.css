@@ -142,7 +142,7 @@
 .footer-bottom {
     display: flex;
     align-items: center; 
-    justify-content: space-between; /* Change to space-between */
+    justify-content: space-between; 
     height: 60px; 
     padding: 0 20px; 
     background: var(--neutral-10, #F7F7F7);
@@ -179,7 +179,7 @@
 }
 
 .footer-right-links {
-    display: flex; /* Ensure it's displayed as a flex container */
+    display: flex; 
     gap: 16px;
-    margin-right: 80px; /* Pushes it to the right */
+    margin-right: 80px; 
 }
