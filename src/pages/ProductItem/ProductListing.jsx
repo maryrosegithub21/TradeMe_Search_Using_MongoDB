@@ -1,10 +1,15 @@
 import React from "react";
-import "./style.css";
+import Navbar from '../../common/Navbar';
+import Footer from '../../common/Footer';
+// import "./style.css";
 
-export const ProductListing = () => {
+const ProductListing = () => {
   return (
     <div>
-    
+      <Navbar />
+      <Footer />
     </div>
   );
 };
+
+export default ProductListing;
