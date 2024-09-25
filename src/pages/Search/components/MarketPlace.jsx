@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Marketplace.module.css';
+import styles from '../components/Marketplace.module.css';
 
 import homeImage from '../../../assets/MarketPlace/home.png';
 import antiques from '../../../assets/MarketPlace/antique.png';
@@ -14,15 +14,18 @@ import clothing from '../../../assets/MarketPlace/clothing.png';
 const Marketplace = () => {
   const [input, setInput] = useState('');
   const [category, setCategory] = useState('');
+  const [categoryShow, setCategoryShow] = useState(true);
   const [results, setResults] = useState([]);
-  // const [texts, setTexts] = useState([]);
+  
 
   const handleInputChange = (e) => {
     setInput(e.target.value);
+    setCategoryShow(false)
   };
 
   const handleCategoryChange = (e) => {
     setCategory(e.target.value);
+    setCategoryShow(false)
   };
 
   const handleSearch = async () => {
@@ -50,7 +53,6 @@ const Marketplace = () => {
     }
   };
 
-  // L5-mission-five-frontend\src\assets\MarketPlace\home.png
   const categories = [
     { name: 'Home & Living', image: homeImage },
     { name: 'Antiques & Collectibles', image: antiques },
@@ -64,58 +66,71 @@ const Marketplace = () => {
 
 
   return (
-    <div>
+    <>
+     <h1>Shop new and used items for sale</h1>
+      <div className={styles.marketPlace} >
+     
+      <div className={styles.searcBar}>
+      <div className={styles.inputWrapper}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M10 2C5.58 2 2 5.58 2 10s3.58 8 8 8c1.85 0 3.55-.63 4.9-1.69l5.39 5.39 1.41-1.41-5.39-5.39C17.37 13.55 18 11.85 18 10c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="#444444"/>
+      </svg>
 
-<div className="marketplace">
-      <div className="breadcrumb">
-        <a href="/">Home</a> / <a href="/marketplace">Marketplace</a>
-      </div>
-      <h1>Shop new and used items for sale</h1>
-      <div className="search-bar">
       <input
         type="text"
         value={input}
         onChange={handleInputChange}
         placeholder="Search for auctions"
       />
-      <input
-        type="text"
-        value={category}
-        onChange={handleCategoryChange}
-        placeholder="Category"
-      />
-      <button onClick={handleSearch}>Search</button>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18 6L6 18M6 6L18 18" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+     
+      <div className={styles.buttonContainer}>
+      <button onClick={handleSearch}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M10 2C5.58 2 2 5.58 2 10s3.58 8 8 8c1.85 0 3.55-.63 4.9-1.69l5.39 5.39 1.41-1.41-5.39-5.39C17.37 13.55 18 11.85 18 10c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="#444444"/>
+      </svg> 
+      Search
+      </button>
       </div>
-      <div className="explore-section">
-        <h2>Explore Marketplace</h2>
-        <div className="categories">
-        {/* <ul> */}
-      {results && results.map((item) => (
-          <div key={item._id} className="category-card">
-            <img src={`http://localhost:3000/public/${item.image}`} alt={item.name} style={{ width: '300px', height: '350px' }} />
-            <p >{item.name}</p>
-          </div>
-        ))}
-        </div>
-      {/* </ul> */}
 
-        <div className="categories">
-          {categories.map((category) => (
-            <div key={category.name} className="category-card">
+      </div>
+
+        <div className={styles.categoryDropDown}>
+          <select onChange={handleCategoryChange}>
+            <option>Browse by category</option>
+              {categories.map((category, index) => (
+            <option key={index} value={category.name}>{category.name}</option>
+            ))}
+          </select>
+        </div>
+     </div>
+     </div>
+     <h1>Explore Marketplace</h1>
+      <div className={styles.exploreSection}>
+        
+        <div className={styles.categories}>
+            {results && results.map((item) => (
+                <div key={item._id} className={styles.categoryCard}>
+                <img src={`http://localhost:3000/public/${item.image}`} alt={item.name} />
+                <p >{item.name}</p>
+                </div>
+            ))}
+        </div>
+    {categoryShow && 
+        <div className={styles.categories}>
+            {categories.map((category) => (
+            <div key={category.name} className={styles.categoryCard}>
               <img src={category.image} alt={category.name} />
               <p>{category.name}</p>
             </div>
-          ))}
+            ))}
         </div>
+    }
       </div>
-    </div>
-
-
-
-
-      
-     
-    </div>
+    
+      </>
   );
 };
 

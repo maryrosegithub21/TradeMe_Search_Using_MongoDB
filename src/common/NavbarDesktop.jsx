@@ -73,9 +73,9 @@ const NavbarDesktop = () => {
       <div className="breadcrumb">
        <Link to="/" className="breadcrumb-link">Home</Link>
         <span className="divider">/</span>
-        <Link to="/category" className="breadcrumb-link">Category</Link>
+        <Link to="/MarketPlace" className="breadcrumb-link">Marketplace</Link>
         <span className="divider">/</span>
-        <Link to="/subcategory" className="breadcrumb-link">Subcategory</Link>
+        {/* <Link to="/subcategory" className="breadcrumb-link">Subcategory</Link> */}
       </div>
     </>
   );

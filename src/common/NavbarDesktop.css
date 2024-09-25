@@ -127,6 +127,7 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    margin-left: 40px;
 }
 
 .breadcrumb .divider {
