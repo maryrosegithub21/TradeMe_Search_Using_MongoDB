@@ -1,0 +1,1440 @@
+@media only screen and (min-width: 480px){
+  .BodyContainer{
+    margin-bottom: 10rem;
+  
+  }
+  .marketPlace {
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 24px;
+    width: 50%;
+    display: flex;
+   justify-content: flex-start;
+   color: #0061AF;
+  
+  }
+  .searchBar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 7px;
+    }
+  
+  .inputWrapper input[type="text"] {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: flex; 
+    margin-top: 0.3rem;
+  }
+  .inputWrapper button {
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+  }
+  .inputIconButton{
+    position: absolute;
+    left: 1rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 10rem;
+  }
+  
+  .buttonContainer{
+    background-color:white;
+    gap: 1rem;
+  }
+  
+  .inputWrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .categoryDropDown {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    /* max-width: 700px; */
+    margin-left: 3.3rem;
+  }
+  
+  .categoryDropDown select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .exploreSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 87%;
+  }
+  
+  .exploreSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    
+  }
+  
+  .categoryCard {
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  
+  .categoryCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .categoryCard p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 25px;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-left: 2rem;
+  }
+  
+  .inputIconButton{
+    position: absolute;
+    left: 45.5rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+
+
+  
+  .inputField {
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .clearIcon {
+    position: absolute;
+    right: 90px;
+    cursor: pointer;
+    top: 0.8rem;
+    /* margin-left: 2rem; */
+  }
+  /* Breadcrumb styles */
+.breadcrumb {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 100px;
+  margin-top: 2rem;
+  background: linear-gradient(180deg, #AEDEFF 0%, #52B7FD 100%);
+}
+
+.breadcrumb .divider {
+  margin: 0 5px; 
+}
+.BreadCrumdDiv{
+  background: linear-gradient(180deg, #AEDEFF 0%, #52B7FD 100%);
+}
+}
+
+
+@media only screen and (min-width: 630px){
+  .BodyContainer{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  .marketPlace {
+    background-color: #666666;
+    border-radius: 12px;
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    align-items: start;
+    margin-left: 85px;
+    margin-bottom: 3rem;
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+   justify-content: flex-start;
+   color: #222;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    margin-bottom: 7px;
+    }
+  
+  .inputWrapper input[type="text"] {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: flex; 
+    left:2rem;
+    margin-top: 0.3rem;
+  }
+  .inputWrapper button {
+    padding: 1rem 1rem;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 8rem;
+  }
+  .buttonContainer{
+    background-color: #666666;
+    gap: 1rem;
+  }
+  
+  .inputWrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .categoryDropDown {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 0;
+  }
+  
+  .categoryDropDown select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .exploreSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 87%;
+  }
+  
+  .exploreSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    
+  }
+  
+  .categoryCard {
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  
+  .categoryCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .categoryCard p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 25px;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+  }
+  .inputIconButton{
+    position: absolute;
+    left: 22.5rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .inputField {
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .clearIcon {
+    position: absolute;
+    right: 180px;
+    cursor: pointer;
+    top: 0.8rem;
+  }
+/* Breadcrumb styles */
+.breadcrumb {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 40px;
+  margin-top: 2rem;
+}
+
+.breadcrumb .divider {
+  margin: 0 5px; 
+}
+.BreadCrumdDiv{
+  background: white;
+}
+}
+
+@media only screen and (min-width: 768px){
+  .BodyContainer{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  .marketPlace {
+    background-color: #666666;
+    border-radius: 12px;
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    align-items: start;
+    margin-left: 85px;
+    margin-bottom: 3rem;
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+   justify-content: flex-start;
+   color: #222;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 35rem;
+    display: flex;
+    margin-bottom: 7px;
+    }
+
+  .inputWrapper input[type="text"] {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: flex; 
+    left:2rem;
+    margin-top: 0.3rem;
+  }
+  .inputWrapper button {
+    padding: 1rem 1rem;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 8rem;
+  }
+  .buttonContainer{
+    background-color: #666666;
+    gap: 1rem;
+  }
+  
+  .inputWrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .categoryDropDown {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 0;
+  }
+  
+  .categoryDropDown select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .exploreSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 87%;
+  }
+  
+  .exploreSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    
+  }
+  
+  .categoryCard {
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  
+  .categoryCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .categoryCard p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 25px;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+  }
+  .inputIconButton{
+    position: absolute;
+    left: 27.5rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  
+  .inputField {
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .clearIcon {
+    position: absolute;
+    right: 180px;
+    cursor: pointer;
+    top: 0.8rem;
+  }
+/* Breadcrumb styles */
+.breadcrumb {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 40px;
+  margin-top: 2rem;
+}
+
+.breadcrumb .divider {
+  margin: 0 5px; 
+}
+.BreadCrumdDiv{
+  background: white;
+}
+}
+
+@media only screen and (min-width: 912px){
+  .BodyContainer{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  .marketPlace {
+    background-color: #666666;
+    border-radius: 12px;
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    align-items: start;
+    margin-left: 85px;
+    margin-bottom: 3rem;
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+   justify-content: flex-start;
+   color: #222;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 43rem;
+    display: flex;
+    margin-bottom: 7px;
+    }
+   
+  .inputWrapper input[type="text"] {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: flex; 
+    left:2rem;
+    margin-top: 0.3rem;
+  }
+  .inputWrapper button {
+    padding: 1rem 1rem;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 8rem;
+  }
+  .buttonContainer{
+    background-color: #666666;
+    gap: 1rem;
+  }
+  
+  .inputWrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .categoryDropDown {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 0;
+  }
+  
+  .categoryDropDown select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .exploreSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 87%;
+  }
+  
+  .exploreSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    
+  }
+  
+  .categoryCard {
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  
+  .categoryCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .categoryCard p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 25px;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+  }
+  .inputIconButton{
+    position: absolute;
+    left: 35.5rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  
+  .inputField {
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .clearIcon {
+    position: absolute;
+    right: 180px;
+    cursor: pointer;
+    top: 0.8rem;
+  }
+/* Breadcrumb styles */
+.breadcrumb {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 40px;
+  margin-top: 2rem;
+}
+
+.breadcrumb .divider {
+  margin: 0 5px; 
+}
+.BreadCrumdDiv{
+  background: white;
+}
+}
+@media only screen and (min-width: 961px){
+  .BodyContainer{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  .marketPlace {
+    background-color: #666666;
+    border-radius: 12px;
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    align-items: start;
+    margin-left: 85px;
+    margin-bottom: 3rem;
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+   justify-content: flex-start;
+   color: #222;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 43rem;
+    display: flex;
+    margin-bottom: 7px;
+    }
+  
+  .inputWrapper svg {
+    margin-right: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .inputWrapper input[type="text"] {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: flex; 
+    left:2rem;
+    margin-top: 0.3rem;
+  }
+  .inputWrapper button {
+    padding: 1rem 1rem;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 3rem;
+  }
+  .buttonContainer{
+    background-color: #666666;
+    gap: 1rem;
+  }
+  
+  .inputWrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .categoryDropDown {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 0;
+  }
+  
+  .categoryDropDown select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .exploreSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 87%;
+  }
+  
+  .exploreSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    
+  }
+
+
+  
+  .categoryCard {
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  
+  .categoryCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .categoryCard p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 25px;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+  }
+  .inputIconButton{
+    position: absolute;
+    left: 33.5rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .inputField {
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .clearIcon {
+    position: absolute;
+    right: 180px;
+    cursor: pointer;
+    top: 0.8rem;
+  }
+
+  /* Breadcrumb styles */
+.breadcrumb {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 40px;
+  margin-top: 2rem;
+}
+
+.breadcrumb .divider {
+  margin: 0 5px; 
+}
+.BreadCrumdDiv{
+  background: white;
+}
+
+}
+
+@media only screen and (min-width: 1024px){
+  .BodyContainer{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  .marketPlace {
+    background-color: #666666;
+    border-radius: 12px;
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    align-items: start;
+    margin-left: 85px;
+    margin-bottom: 3rem;
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+   justify-content: flex-start;
+   color: #222;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 45rem;
+    display: flex;
+    margin-bottom: 7px;
+    }
+  
+  /* .inputWrapper svg {
+    margin-right: 1rem;
+    margin-left: 2rem;
+  } */
+  
+  .inputWrapper input[type="text"] {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: flex; 
+    left:2rem;
+    margin-top: 0.3rem;
+  }
+  .inputWrapper button {
+    padding: 1rem 1rem;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 3rem;
+  }
+  .buttonContainer{
+    background-color: #666666;
+    gap: 1rem;
+  }
+  
+  .inputWrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .categoryDropDown {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 0;
+  }
+  
+  .categoryDropDown select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .exploreSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 87%;
+  }
+  
+  .exploreSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     flex-direction: row;
+  }
+  
+  .categoryCard {
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  
+  .categoryCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .categoryCard p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 25px;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+  }
+  .inputIconButton{
+    position: absolute;
+    left: 35.5rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .inputField {
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .clearIcon {
+    position: absolute;
+    right: 180px;
+    cursor: pointer;
+    top: 0.8rem;
+  }
+/* Breadcrumb styles */
+.breadcrumb {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 40px;
+  margin-top: 2rem;
+}
+
+.breadcrumb .divider {
+  margin: 0 5px; 
+}
+.BreadCrumdDiv{
+  background: white;
+}
+}
+
+
+@media only screen and (min-width: 1201px){
+  .BodyContainer{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+  }
+  .marketPlace {
+    background-color: #666666;
+    border-radius: 12px;
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    align-items: start;
+    margin-left: 85px;
+    margin-bottom: 3rem;
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+   justify-content: flex-start;
+   color: #222;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 55rem;
+    display: flex;
+    margin-bottom: 7px;
+    }
+  
+  .inputWrapper svg {
+    margin-right: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .inputWrapper input[type="text"] {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: flex; 
+    left:2rem;
+    margin-top: 0.3rem;
+  }
+  .inputWrapper button {
+    padding: 1rem 1rem;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 3rem;
+  }
+  .buttonContainer{
+    background-color: #666666;
+    gap: 1rem;
+  }
+  
+  .inputWrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .categoryDropDown {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 0;
+  }
+  
+  .categoryDropDown select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .exploreSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 87%;
+  }
+  
+  .exploreSection h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    
+  }
+  
+  .categoryCard {
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+  }
+  
+  .categoryCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .categoryCard p {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 25px;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+  }
+  .inputIconButton{
+    position: absolute;
+    left: 45.5rem;
+    pointer-events: none;
+    color: #aaa;
+    top: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  
+  .inputField {
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .clearIcon {
+    position: absolute;
+    right: 180px;
+    cursor: pointer;
+    top: 0.8rem;
+  }
+  /* Breadcrumb styles */
+.breadcrumb {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 20rem;
+  margin-top: 2rem;
+}
+
+.breadcrumb .divider {
+  margin: 0 5px; 
+}
+.BreadCrumdDiv{
+  background: white;
+}
+  }
