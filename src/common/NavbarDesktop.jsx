@@ -3,7 +3,7 @@ import './NavbarDesktop.css';
 import logo from '../assets/TradeMeLogoBig.png';
 
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const NavbarDesktop = () => {
   return (
@@ -70,13 +70,13 @@ const NavbarDesktop = () => {
           <a href="#help" className="red-text">Help & Contact Us</a>
         </div>
       </div>
-      <div className="breadcrumb">
+      {/* <div className="breadcrumb">
        <Link to="/" className="breadcrumb-link">Home</Link>
         <span className="divider">/</span>
         <Link to="/MarketPlace" className="breadcrumb-link">Marketplace</Link>
         <span className="divider">/</span>
-        {/* <Link to="/subcategory" className="breadcrumb-link">Subcategory</Link> */}
-      </div>
+        <Link to="/subcategory" className="breadcrumb-link">Subcategory</Link>
+      </div> */}
     </>
   );
 };
